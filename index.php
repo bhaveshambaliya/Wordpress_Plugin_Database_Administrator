@@ -1,0 +1,1 @@
+<?php /*I like to be silent*/ ?>

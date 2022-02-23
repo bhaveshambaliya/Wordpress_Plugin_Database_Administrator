@@ -1,0 +1,155 @@
+.WDA-tables-list{
+	width: 100%;
+    border: 1px solid;
+}
+.WDA-tables-list tr:nth-child(even){
+	background:#D3DCE3;
+	padding:5px;
+}
+.WDA-tables-list th {
+    text-align: left;
+	padding-right: 10px;
+}
+.table-action-a {
+    margin-right: 5px;
+	font-weight: bold;
+}
+.WDA-Editable-Text,.WDA-Editable-Label{width:100%;}
+.notify {
+	background-color:#e3f7fc; 
+	color:#555; 
+    border:.1em solid;
+	border-color: #8ed9f6;
+    border-radius:10px;
+    font-family:Tahoma,Geneva,Arial,sans-serif;
+    font-size:1.1em;
+    padding:10px 10px 10px 10px;
+    margin:10px;
+    cursor: default;
+}
+
+.notify-yellow { background: #fff8c4; border-color: #f7deae; }
+.notify-red { background: #ffecec; border-color: #fad9d7; }
+.notify-green { background: #e9ffd9; border-color: #D1FAB6; }
+.WDA_btn-back:focus{
+	box-shadow: none;
+}
+/*css for WDA_popup*/
+.WDA_overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index:1111;
+}
+.WDA_overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.WDA_popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.WDA_popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.WDA_popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.WDA_popup .close:hover {
+  color: #06D85F;
+}
+.WDA_popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .WDA_popup{
+    width: 70%;
+  }
+}
+/*end css for WDA_popup*/
+.WDA_red-add-button {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+	text-decoration: none;
+}
+.WDA_Array_field_popup-footer .Add {
+    border: 1px solid green;
+    padding: 5px;
+    color: white;
+    background: green;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 10px 10px 10px 0px;
+}
+
+.WDA_success_message {
+    background: green;
+    color: white;
+    padding: 7px;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.WDA_error_message {
+    background: red;
+    color: white;
+    padding: 7px;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.WDA-header-menu-main a {
+    text-decoration: none;
+}
+.WDA-tables-list th {
+    background: #888;
+    color: white;
+    padding: 5px;
+}
+.WDA-tables-list th a{
+	color: white;
+	text-decoration: none;
+}
+.WDA-Default-Button{
+	padding: 8px 18px;
+    margin: 5px 0px;
+    border: none;
+    background: #888888;
+    color: white;
+    font-weight: bold;
+	cursor: pointer;
+}
+.WDA-tables-list .page-numbers {
+    font-weight: bold;
+    margin: 2px;
+}
+.WDA-tables-list .page-numbers.current{
+	color:red;
+}

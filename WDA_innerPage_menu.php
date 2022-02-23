@@ -1,0 +1,2 @@
+<h3 class="WDA-header-menu-main"><a href="<?= admin_url( 'options.php?page=WDA_browse_table' )."&WDA_table=".$_GET['WDA_table'] ?>">Browse</a> | <a href="<?= admin_url( 'options.php?page=WDA_structure_table' )."&WDA_table=".$_GET['WDA_table'] ?>">Structure</a> | <a href="<?= admin_url( 'options.php?page=WDA_search_in_column_table' )."&WDA_table=".$_GET['WDA_table'] ?>">Search</a> | <a href="<?= admin_url( 'options.php?page=WDA_insert_in_table' )."&WDA_table=".$_GET['WDA_table'] ?>">Insert</a></h3>
+<hr/>
