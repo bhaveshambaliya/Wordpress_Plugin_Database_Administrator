@@ -4,7 +4,7 @@
 * Plugin URI: 
 * Description: This plugin create for manage database
 * Version: 1.0
-* Author: Parimal Dhimmar 
+* Author: Bhavesh Ambaliya
 * Author URI: 
 * License: 
 */
